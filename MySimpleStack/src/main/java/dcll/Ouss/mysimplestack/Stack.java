@@ -2,6 +2,8 @@ package dcll.Ouss.mysimplestack;
 
 public class Stack implements SimpleStack {
 
+	private int size;
+	
 	@Override
 	public boolean isEmpty() {
 		// TODO Auto-generated method stub
@@ -11,7 +13,7 @@ public class Stack implements SimpleStack {
 	@Override
 	public int getSize() {
 		// TODO Auto-generated method stub
-		return 0;
+		return size;
 	}
 
 	@Override
